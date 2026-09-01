@@ -1,10 +1,10 @@
 <h1> Purpose </h1>
-The Linux Client is intended to represent various Linux clients which may be part of a corporate network. It allows me to gain experience connecting a Linux machine to AD and implementing effective security controls on Linux.
+The Linux Client is intended to represent various Linux clients which may be part of a corporate network. It allows me to gain experience connecting a Linux machine to AD and implementing effective security controls on Linux. This client was also used to run an email poller script to communicate with the Mailhog service on the corporate server to simulate an email server running. 
 
 <br /> <br />
 
 <h1> Services </h1>
-To connect to AD, the Samba Winbind method was used. For this, the following additional modules were installed: winbind; libpam-winbind; libnss-winbind; krb5-config; samba-dsdb-modules; samba-vfs-modules. This client also has the Wazuh agent installed for security monitoring. 
+To connect to AD, the Samba Winbind method was used. For this, the following additional modules were installed: winbind; libpam-winbind; libnss-winbind; krb5-config; samba-dsdb-modules; samba-vfs-modules. This client also has the Wazuh agent installed for security monitoring. For the email poller script to run to pull new email intended for the client, the following modules were needed for the script to run: curl; jq. 
 
 <br /> <br />
 
